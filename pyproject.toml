@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "partypy_tt"
+version = "0.1.0"
+description = "Simulate attendance at your party!"
+authors = ["Tiffany Timbers"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://partypy_tt.readthedocs.io/en/latest/"
+homepage = "https://github.com/ttimbers/partypy_tt"
+repository = "https://github.com/ttimbers/partypy_tt"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
